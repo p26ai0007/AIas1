@@ -1,0 +1,1201 @@
+example_id,context,statement,flag
+0,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+200,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+400,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+600,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+800,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+1,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+201,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+401,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+601,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+801,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+2,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+202,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+402,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+602,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+802,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+3,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ¬Ziklo(a),Lumbo(a),False
+203,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ¬Glent(a),Zlim(a),False
+403,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ¬Praf(a),Klep(a),False
+603,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ¬Fizo(a),Jext(a),False
+803,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ¬Nuv(a),Wrox(a),False
+4,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+204,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+404,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+604,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+804,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+5,∀x (Ziklo(x) → Not(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+205,∀x (Glent(x) → Not(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+405,∀x (Praf(x) → Not(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+605,∀x (Fizo(x) → Not(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+805,∀x (Nuv(x) → Not(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+6,∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+206,∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+406,∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+606,∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+806,∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+7,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+207,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+407,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+607,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+807,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+8,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+208,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+408,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+608,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+808,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+9,∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+209,∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+409,∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+609,∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+809,∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+10,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+210,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+410,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+610,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+810,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+11,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+211,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+411,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+611,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+811,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+12,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+212,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+412,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+612,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+812,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+13,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ¬Ziklo(a),Lumbo(a),False
+213,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ¬Glent(a),Zlim(a),False
+413,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ¬Praf(a),Klep(a),False
+613,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ¬Fizo(a),Jext(a),False
+813,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ¬Nuv(a),Wrox(a),False
+14,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Ziklo(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+214,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Glent(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+414,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Praf(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+614,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Fizo(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+814,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Nuv(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+15,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+215,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+415,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+615,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+815,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+16,∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+216,∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+416,∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+616,∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+816,∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+17,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Blaf(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+217,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Razz(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+417,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Vank(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+617,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Blorn(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+817,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Splee(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+18,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ¬Ziklo(a),Lumbo(a),True
+218,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ¬Glent(a),Zlim(a),True
+418,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ¬Praf(a),Klep(a),True
+618,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ¬Fizo(a),Jext(a),True
+818,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ¬Nuv(a),Wrox(a),True
+19,∀x (Ziklo(x) → Not(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+219,∀x (Glent(x) → Not(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+419,∀x (Praf(x) → Not(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+619,∀x (Fizo(x) → Not(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+819,∀x (Nuv(x) → Not(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+20,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+220,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+420,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+620,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+820,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+21,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Blaf(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+221,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Razz(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+421,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Vank(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+621,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Blorn(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+821,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Splee(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+22,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Blaf(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+222,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Razz(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+422,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Vank(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+622,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Blorn(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+822,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Splee(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+23,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+223,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+423,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+623,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+823,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+24,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+224,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+424,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+624,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+824,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+25,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+225,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+425,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+625,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+825,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+26,∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+226,∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+426,∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+626,∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+826,∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+27,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+227,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+427,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+627,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+827,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+28,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+228,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+428,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+628,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+828,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+29,∀x (Ziklo(x) → Not(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+229,∀x (Glent(x) → Not(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+429,∀x (Praf(x) → Not(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+629,∀x (Fizo(x) → Not(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+829,∀x (Nuv(x) → Not(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+30,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+230,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+430,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+630,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+830,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+31,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Trune(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+231,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Pex(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+431,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Scud(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+631,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Plim(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+831,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Blen(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+32,∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+232,∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+432,∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+632,∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+832,∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+33,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Trune(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+233,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Pex(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+433,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Scud(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+633,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Plim(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+833,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Blen(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+34,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+234,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+434,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+634,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+834,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+35,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Blaf(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ¬Ziklo(a),Lumbo(a),True
+235,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Razz(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ¬Glent(a),Zlim(a),True
+435,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Vank(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ¬Praf(a),Klep(a),True
+635,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Blorn(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ¬Fizo(a),Jext(a),True
+835,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Splee(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ¬Nuv(a),Wrox(a),True
+36,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+236,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+436,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+636,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+836,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+37,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Ziklo(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+237,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Glent(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+437,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Praf(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+637,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Fizo(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+837,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Nuv(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+38,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+238,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+438,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+638,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+838,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+39,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ¬Ziklo(a),Lumbo(a),True
+239,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ¬Glent(a),Zlim(a),True
+439,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ¬Praf(a),Klep(a),True
+639,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ¬Fizo(a),Jext(a),True
+839,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ¬Nuv(a),Wrox(a),True
+40,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Not(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+240,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Not(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+440,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Not(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+640,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Not(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+840,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Not(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+41,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Trune(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+241,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Pex(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+441,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Scud(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+641,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Plim(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+841,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Blen(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+42,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+242,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+442,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+642,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+842,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+43,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Not(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+243,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Not(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+443,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Not(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+643,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Not(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+843,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Not(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+44,∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+244,∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+444,∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+644,∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+844,∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+45,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Sline(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+245,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Melf(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+445,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Yobb(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+645,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Skul(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+845,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Plog(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+46,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+246,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+446,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+646,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+846,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+47,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+247,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+447,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+647,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+847,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+48,∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Drig(x)) ; ∀x (Drig(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+248,∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Bilo(x)) ; ∀x (Bilo(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+448,∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Frun(x)) ; ∀x (Frun(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+648,∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Vurn(x)) ; ∀x (Vurn(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+848,∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Grif(x)) ; ∀x (Grif(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+49,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Jurf(x) → Drig(x)) ; ∀x (Drig(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+249,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Tork(x) → Bilo(x)) ; ∀x (Bilo(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+449,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Torb(x) → Frun(x)) ; ∀x (Frun(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+649,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Rild(x) → Vurn(x)) ; ∀x (Vurn(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+849,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Yurd(x) → Grif(x)) ; ∀x (Grif(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+50,∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+250,∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+450,∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+650,∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+850,∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+51,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+251,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+451,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+651,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+851,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+52,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+252,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+452,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+652,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+852,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+53,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+253,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+453,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+653,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+853,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+54,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+254,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+454,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+654,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+854,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+55,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+255,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+455,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+655,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+855,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+56,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Ziklo(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+256,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Glent(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+456,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Praf(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+656,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Fizo(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+856,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Nuv(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+57,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+257,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+457,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+657,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+857,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+58,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Ziklo(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+258,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Glent(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+458,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Praf(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+658,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Fizo(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+858,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Nuv(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+59,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+259,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+459,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+659,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+859,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+60,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+260,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+460,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+660,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+860,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+61,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+261,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+461,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+661,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+861,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+62,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+262,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+462,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+662,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+862,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+63,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Blaf(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+263,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Razz(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+463,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Vank(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+663,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Blorn(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+863,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Splee(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+64,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Blaf(x) → Sline(x)) ; ∀x (Vork(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+264,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Razz(x) → Melf(x)) ; ∀x (Zurn(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+464,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Vank(x) → Yobb(x)) ; ∀x (Wrenk(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+664,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Blorn(x) → Skul(x)) ; ∀x (Quaz(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+864,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Splee(x) → Plog(x)) ; ∀x (Druk(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+65,∀x (Ziklo(x) → Not(x)) ; ∀x (Ziklo(x) → Trune(x)) ; ∀x (Vork(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+265,∀x (Glent(x) → Not(x)) ; ∀x (Glent(x) → Pex(x)) ; ∀x (Zurn(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+465,∀x (Praf(x) → Not(x)) ; ∀x (Praf(x) → Scud(x)) ; ∀x (Wrenk(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+665,∀x (Fizo(x) → Not(x)) ; ∀x (Fizo(x) → Plim(x)) ; ∀x (Quaz(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+865,∀x (Nuv(x) → Not(x)) ; ∀x (Nuv(x) → Blen(x)) ; ∀x (Druk(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+66,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Blaf(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+266,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Razz(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+466,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Vank(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+666,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Blorn(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+866,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Splee(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+67,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+267,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+467,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+667,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+867,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+68,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Trune(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+268,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Pex(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+468,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Scud(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+668,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Plim(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+868,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Blen(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+69,∀x (Ziklo(x) → Not(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+269,∀x (Glent(x) → Not(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+469,∀x (Praf(x) → Not(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+669,∀x (Fizo(x) → Not(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+869,∀x (Nuv(x) → Not(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+70,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Blaf(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ¬Ziklo(a),Lumbo(a),False
+270,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Razz(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ¬Glent(a),Zlim(a),False
+470,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Vank(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ¬Praf(a),Klep(a),False
+670,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Blorn(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ¬Fizo(a),Jext(a),False
+870,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Splee(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ¬Nuv(a),Wrox(a),False
+71,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+271,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+471,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+671,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+871,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+72,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Ziklo(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+272,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Glent(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+472,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Praf(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+672,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Fizo(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+872,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Nuv(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+73,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+273,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+473,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+673,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+873,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+74,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Not(x)) ; ∀x (Frim(x) → Qado(x)) ; ¬Ziklo(a),Lumbo(a),False
+274,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Not(x)) ; ∀x (Crip(x) → Flen(x)) ; ¬Glent(a),Zlim(a),False
+474,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Not(x)) ; ∀x (Glim(x) → Spog(x)) ; ¬Praf(a),Klep(a),False
+674,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Not(x)) ; ∀x (Triv(x) → Yex(x)) ; ¬Fizo(a),Jext(a),False
+874,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Not(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ¬Nuv(a),Wrox(a),False
+75,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Not(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+275,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Not(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+475,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Not(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+675,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Not(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+875,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Not(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+76,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Trune(x) → Sline(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+276,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Pex(x) → Melf(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+476,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Scud(x) → Yobb(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+676,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Plim(x) → Skul(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+876,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Blen(x) → Plog(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+77,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+277,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+477,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+677,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+877,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+78,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Not(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+278,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Not(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+478,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Not(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+678,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Not(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+878,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Not(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+79,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Trune(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Sline(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+279,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Pex(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Melf(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+479,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Scud(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Yobb(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+679,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Plim(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Skul(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+879,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Blen(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Plog(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+80,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+280,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+480,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+680,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+880,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+81,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+281,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+481,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+681,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+881,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+82,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ¬Ziklo(a),Lumbo(a),False
+282,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ¬Glent(a),Zlim(a),False
+482,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ¬Praf(a),Klep(a),False
+682,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ¬Fizo(a),Jext(a),False
+882,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ¬Nuv(a),Wrox(a),False
+83,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+283,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+483,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+683,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+883,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+84,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+284,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+484,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+684,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+884,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+85,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+285,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+485,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+685,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+885,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+86,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ¬Ziklo(a),Lumbo(a),False
+286,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ¬Glent(a),Zlim(a),False
+486,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ¬Praf(a),Klep(a),False
+686,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ¬Fizo(a),Jext(a),False
+886,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ¬Nuv(a),Wrox(a),False
+87,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+287,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+487,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+687,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+887,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+88,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+288,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+488,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+688,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+888,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+89,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+289,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+489,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+689,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+889,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+90,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ¬Ziklo(a),Lumbo(a),True
+290,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ¬Glent(a),Zlim(a),True
+490,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ¬Praf(a),Klep(a),True
+690,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ¬Fizo(a),Jext(a),True
+890,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ¬Nuv(a),Wrox(a),True
+91,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+291,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+491,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+691,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+891,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+92,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+292,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+492,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+692,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+892,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+93,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+293,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+493,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+693,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+893,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+94,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+294,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+494,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+694,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+894,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+95,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+295,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+495,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+695,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+895,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+96,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Not(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+296,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Not(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+496,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Not(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+696,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Not(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+896,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Not(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+97,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Vork(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+297,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Zurn(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+497,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Wrenk(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+697,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Quaz(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+897,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Druk(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+98,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+298,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+498,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+698,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+898,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+99,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+299,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+499,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+699,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+899,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+100,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+300,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+500,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+700,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+900,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+101,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+301,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+501,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+701,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+901,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+102,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ¬Ziklo(a),Lumbo(a),False
+302,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ¬Glent(a),Zlim(a),False
+502,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ¬Praf(a),Klep(a),False
+702,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ¬Fizo(a),Jext(a),False
+902,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ¬Nuv(a),Wrox(a),False
+103,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+303,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+503,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+703,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+903,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+104,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+304,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+504,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+704,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+904,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+105,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+305,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+505,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+705,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+905,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+106,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ¬Ziklo(a),Lumbo(a),False
+306,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ¬Glent(a),Zlim(a),False
+506,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ¬Praf(a),Klep(a),False
+706,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ¬Fizo(a),Jext(a),False
+906,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ¬Nuv(a),Wrox(a),False
+107,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+307,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+507,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+707,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+907,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+108,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Not(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+308,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Not(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+508,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Not(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+708,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Not(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+908,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Not(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+109,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Vork(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+309,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Zurn(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+509,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Wrenk(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+709,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Quaz(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+909,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Druk(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+110,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+310,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+510,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+710,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+910,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+111,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+311,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+511,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+711,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+911,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+112,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Trune(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+312,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Pex(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+512,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Scud(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+712,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Plim(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+912,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Blen(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+113,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+313,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+513,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+713,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+913,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+114,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Blaf(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ¬Ziklo(a),Lumbo(a),True
+314,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Razz(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ¬Glent(a),Zlim(a),True
+514,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Vank(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ¬Praf(a),Klep(a),True
+714,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Blorn(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ¬Fizo(a),Jext(a),True
+914,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Splee(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ¬Nuv(a),Wrox(a),True
+115,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+315,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+515,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+715,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+915,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+116,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Ziklo(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+316,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Glent(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+516,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Praf(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+716,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Fizo(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+916,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Nuv(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+117,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+317,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+517,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+717,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+917,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+118,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ¬Ziklo(a),Lumbo(a),False
+318,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ¬Glent(a),Zlim(a),False
+518,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ¬Praf(a),Klep(a),False
+718,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ¬Fizo(a),Jext(a),False
+918,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ¬Nuv(a),Wrox(a),False
+119,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Not(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+319,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Not(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+519,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Not(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+719,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Not(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+919,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Not(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+120,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Trune(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+320,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Pex(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+520,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Scud(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+720,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Plim(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+920,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Blen(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+121,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+321,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+521,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+721,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+921,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+122,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Not(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+322,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Not(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+522,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Not(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+722,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Not(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+922,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Not(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+123,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+323,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+523,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+723,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+923,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+124,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Sline(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+324,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Melf(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+524,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Yobb(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+724,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Skul(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+924,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Plog(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+125,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+325,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+525,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+725,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+925,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+126,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+326,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+526,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+726,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+926,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+127,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+327,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+527,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+727,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+927,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+128,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+328,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+528,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+728,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+928,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+129,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+329,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+529,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+729,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+929,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+130,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ¬Ziklo(a),Lumbo(a),False
+330,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ¬Glent(a),Zlim(a),False
+530,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ¬Praf(a),Klep(a),False
+730,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ¬Fizo(a),Jext(a),False
+930,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ¬Nuv(a),Wrox(a),False
+131,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Ziklo(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+331,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Glent(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+531,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Praf(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+731,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Fizo(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+931,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Nuv(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+132,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+332,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+532,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+732,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+932,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+133,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+333,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+533,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+733,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+933,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+134,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+334,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+534,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+734,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+934,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+135,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ¬Ziklo(a),Lumbo(a),False
+335,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ¬Glent(a),Zlim(a),False
+535,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ¬Praf(a),Klep(a),False
+735,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ¬Fizo(a),Jext(a),False
+935,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ¬Nuv(a),Wrox(a),False
+136,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+336,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+536,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+736,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+936,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+137,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Ziklo(x) → Vork(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+337,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Glent(x) → Zurn(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+537,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Praf(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+737,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Fizo(x) → Quaz(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+937,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Nuv(x) → Druk(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+138,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+338,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+538,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+738,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+938,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+139,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+339,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+539,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+739,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+939,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+140,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+340,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+540,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+740,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+940,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+141,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+341,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+541,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+741,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+941,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+142,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+342,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+542,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+742,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+942,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+143,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Blaf(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+343,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Razz(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+543,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Vank(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+743,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Blorn(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+943,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Splee(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+144,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Blaf(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+344,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Razz(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+544,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Vank(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+744,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Blorn(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+944,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Splee(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+145,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+345,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+545,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+745,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+945,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+146,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Trune(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+346,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Pex(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+546,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Scud(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+746,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Plim(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+946,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Blen(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+147,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+347,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+547,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+747,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+947,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+148,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+348,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+548,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+748,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+948,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+149,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+349,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+549,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+749,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+949,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+150,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Vork(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)),Not(a),True
+350,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Zurn(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)),Not(a),True
+550,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Wrenk(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)),Not(a),True
+750,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Quaz(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)),Not(a),True
+950,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Druk(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)),Not(a),True
+151,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)),Not(a),True
+351,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)),Not(a),True
+551,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)),Not(a),True
+751,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)),Not(a),True
+951,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)),Not(a),True
+152,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Jurf(x) → Lumbo(x)),Not(a),False
+352,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Tork(x) → Zlim(x)),Not(a),False
+552,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Torb(x) → Klep(x)),Not(a),False
+752,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Rild(x) → Jext(x)),Not(a),False
+952,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Yurd(x) → Wrox(x)),Not(a),False
+153,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Trune(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)),Not(a),False
+353,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Pex(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)),Not(a),False
+553,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Scud(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)),Not(a),False
+753,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Plim(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)),Not(a),False
+953,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Blen(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)),Not(a),False
+154,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)),Not(a),False
+354,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)),Not(a),False
+554,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)),Not(a),False
+754,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)),Not(a),False
+954,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)),Not(a),False
+155,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Blaf(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)),Not(a),True
+355,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Razz(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)),Not(a),True
+555,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Vank(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)),Not(a),True
+755,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Blorn(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)),Not(a),True
+955,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Splee(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)),Not(a),True
+156,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)),Not(a),True
+356,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)),Not(a),True
+556,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)),Not(a),True
+756,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)),Not(a),True
+956,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)),Not(a),True
+157,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Trune(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)),Not(a),True
+357,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Pex(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)),Not(a),True
+557,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Scud(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)),Not(a),True
+757,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Plim(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)),Not(a),True
+957,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Blen(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)),Not(a),True
+158,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)),Not(a),False
+358,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)),Not(a),False
+558,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)),Not(a),False
+758,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)),Not(a),False
+958,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)),Not(a),False
+159,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)),Not(a),False
+359,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)),Not(a),False
+559,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)),Not(a),False
+759,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)),Not(a),False
+959,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)),Not(a),False
+160,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Not(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)),Not(a),True
+360,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Not(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)),Not(a),True
+560,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Not(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)),Not(a),True
+760,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Not(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)),Not(a),True
+960,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Not(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)),Not(a),True
+161,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Trune(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)),Not(a),False
+361,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Pex(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)),Not(a),False
+561,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Scud(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)),Not(a),False
+761,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Plim(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)),Not(a),False
+961,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Blen(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)),Not(a),False
+162,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)),Not(a),False
+362,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)),Not(a),False
+562,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)),Not(a),False
+762,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)),Not(a),False
+962,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)),Not(a),False
+163,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Not(x)) ; ∀x (Jurf(x) → Lumbo(x)),Not(a),True
+363,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Not(x)) ; ∀x (Tork(x) → Zlim(x)),Not(a),True
+563,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Not(x)) ; ∀x (Torb(x) → Klep(x)),Not(a),True
+763,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Not(x)) ; ∀x (Rild(x) → Jext(x)),Not(a),True
+963,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Not(x)) ; ∀x (Yurd(x) → Wrox(x)),Not(a),True
+164,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)),Not(a),False
+364,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)),Not(a),False
+564,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)),Not(a),False
+764,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)),Not(a),False
+964,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)),Not(a),False
+165,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Sline(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)),Not(a),False
+365,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Melf(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)),Not(a),False
+565,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Yobb(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)),Not(a),False
+765,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Skul(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)),Not(a),False
+965,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Plog(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)),Not(a),False
+166,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)),Not(a),False
+366,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)),Not(a),False
+566,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)),Not(a),False
+766,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)),Not(a),False
+966,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)),Not(a),False
+167,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Jurf(x) → Lumbo(x)),Not(a),True
+367,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Tork(x) → Zlim(x)),Not(a),True
+567,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Torb(x) → Klep(x)),Not(a),True
+767,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Rild(x) → Jext(x)),Not(a),True
+967,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Yurd(x) → Wrox(x)),Not(a),True
+168,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)),Not(a),False
+368,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)),Not(a),False
+568,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)),Not(a),False
+768,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)),Not(a),False
+968,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)),Not(a),False
+169,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Lumbo(x)),Not(a),False
+369,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Zlim(x)),Not(a),False
+569,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Klep(x)),Not(a),False
+769,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Jext(x)),Not(a),False
+969,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Wrox(x)),Not(a),False
+170,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Lumbo(x)),Not(a),False
+370,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Zlim(x)),Not(a),False
+570,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Klep(x)),Not(a),False
+770,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Jext(x)),Not(a),False
+970,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Wrox(x)),Not(a),False
+171,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)),Not(a),False
+371,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)),Not(a),False
+571,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)),Not(a),False
+771,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)),Not(a),False
+971,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)),Not(a),False
+172,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Ziklo(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)),Not(a),False
+372,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Glent(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)),Not(a),False
+572,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Praf(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)),Not(a),False
+772,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Fizo(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)),Not(a),False
+972,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Nuv(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)),Not(a),False
+173,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Lumbo(x)),Not(a),False
+373,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Zlim(x)),Not(a),False
+573,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Klep(x)),Not(a),False
+773,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Jext(x)),Not(a),False
+973,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Wrox(x)),Not(a),False
+174,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Vork(x) → Lumbo(x)),Not(a),True
+374,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Zurn(x) → Zlim(x)),Not(a),True
+574,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Wrenk(x) → Klep(x)),Not(a),True
+774,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Quaz(x) → Jext(x)),Not(a),True
+974,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Druk(x) → Wrox(x)),Not(a),True
+175,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Lumbo(x)),Not(a),False
+375,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Zlim(x)),Not(a),False
+575,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Klep(x)),Not(a),False
+775,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Jext(x)),Not(a),False
+975,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Wrox(x)),Not(a),False
+176,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)),Not(a),False
+376,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)),Not(a),False
+576,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)),Not(a),False
+776,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)),Not(a),False
+976,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)),Not(a),False
+177,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Lumbo(x)),Not(a),True
+377,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Zlim(x)),Not(a),True
+577,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Klep(x)),Not(a),True
+777,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Jext(x)),Not(a),True
+977,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Wrox(x)),Not(a),True
+178,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Ziklo(x) → Vork(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Lumbo(x)),Not(a),True
+378,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Glent(x) → Zurn(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Zlim(x)),Not(a),True
+578,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Praf(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Klep(x)),Not(a),True
+778,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Fizo(x) → Quaz(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Jext(x)),Not(a),True
+978,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Nuv(x) → Druk(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Wrox(x)),Not(a),True
+179,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Lumbo(x)),Not(a),True
+379,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Zlim(x)),Not(a),True
+579,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Klep(x)),Not(a),True
+779,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Jext(x)),Not(a),True
+979,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Wrox(x)),Not(a),True
+180,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)),Not(a),True
+380,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)),Not(a),True
+580,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)),Not(a),True
+780,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)),Not(a),True
+980,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)),Not(a),True
+181,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)),Not(a),False
+381,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)),Not(a),False
+581,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)),Not(a),False
+781,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)),Not(a),False
+981,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)),Not(a),False
+182,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Lumbo(x)),Not(a),True
+382,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Zlim(x)),Not(a),True
+582,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Klep(x)),Not(a),True
+782,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Jext(x)),Not(a),True
+982,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Wrox(x)),Not(a),True
+183,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)),Not(a),False
+383,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)),Not(a),False
+583,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)),Not(a),False
+783,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)),Not(a),False
+983,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)),Not(a),False
+184,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Blaf(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)),Not(a),True
+384,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Razz(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)),Not(a),True
+584,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Vank(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)),Not(a),True
+784,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Blorn(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)),Not(a),True
+984,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Splee(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)),Not(a),True
+185,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Blaf(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)),Not(a),False
+385,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Razz(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)),Not(a),False
+585,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Vank(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)),Not(a),False
+785,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Blorn(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)),Not(a),False
+985,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Splee(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)),Not(a),False
+186,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)),Not(a),True
+386,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)),Not(a),True
+586,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)),Not(a),True
+786,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)),Not(a),True
+986,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)),Not(a),True
+187,∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Trune(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)),Not(a),True
+387,∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Pex(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)),Not(a),True
+587,∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Scud(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)),Not(a),True
+787,∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Plim(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)),Not(a),True
+987,∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Blen(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)),Not(a),True
+188,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Lumbo(x)),Not(a),False
+388,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Zlim(x)),Not(a),False
+588,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Klep(x)),Not(a),False
+788,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Jext(x)),Not(a),False
+988,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Wrox(x)),Not(a),False
+189,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Lumbo(x)),Not(a),False
+389,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Zlim(x)),Not(a),False
+589,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Klep(x)),Not(a),False
+789,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Jext(x)),Not(a),False
+989,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Wrox(x)),Not(a),False
+190,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)),Not(a),True
+390,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)),Not(a),True
+590,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)),Not(a),True
+790,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)),Not(a),True
+990,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)),Not(a),True
+191,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Lumbo(x)),Not(a),True
+391,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Zlim(x)),Not(a),True
+591,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Klep(x)),Not(a),True
+791,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Jext(x)),Not(a),True
+991,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Wrox(x)),Not(a),True
+192,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Trune(x)),Not(a),False
+392,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Pex(x)),Not(a),False
+592,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Scud(x)),Not(a),False
+792,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Plim(x)),Not(a),False
+992,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Blen(x)),Not(a),False
+193,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)),Not(a),True
+393,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)),Not(a),True
+593,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)),Not(a),True
+793,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)),Not(a),True
+993,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)),Not(a),True
+194,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)),Not(a),True
+394,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)),Not(a),True
+594,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)),Not(a),True
+794,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)),Not(a),True
+994,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)),Not(a),True
+195,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Not(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Sline(x) → Lumbo(x)),Not(a),True
+395,∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Not(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Melf(x) → Zlim(x)),Not(a),True
+595,∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Not(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Yobb(x) → Klep(x)),Not(a),True
+795,∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Not(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Skul(x) → Jext(x)),Not(a),True
+995,∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Not(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Plog(x) → Wrox(x)),Not(a),True
+196,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Frim(x) → Lumbo(x)),Not(a),True
+396,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Crip(x) → Zlim(x)),Not(a),True
+596,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Glim(x) → Klep(x)),Not(a),True
+796,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Triv(x) → Jext(x)),Not(a),True
+996,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Skrim(x) → Wrox(x)),Not(a),True
+197,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Not(x)) ; ∀x (Frim(x) → Lumbo(x)),Not(a),False
+397,∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Not(x)) ; ∀x (Crip(x) → Zlim(x)),Not(a),False
+597,∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Not(x)) ; ∀x (Glim(x) → Klep(x)),Not(a),False
+797,∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Not(x)) ; ∀x (Triv(x) → Jext(x)),Not(a),False
+997,∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Not(x)) ; ∀x (Skrim(x) → Wrox(x)),Not(a),False
+198,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)),Not(a),True
+398,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)),Not(a),True
+598,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)),Not(a),True
+798,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)),Not(a),True
+998,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)),Not(a),True
+199,∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Not(x)) ; ∀x (Frim(x) → Not(x)) ; ∀x (Qado(x) → Lumbo(x)),Not(a),True
+399,∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Not(x)) ; ∀x (Crip(x) → Not(x)) ; ∀x (Flen(x) → Zlim(x)),Not(a),True
+599,∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Not(x)) ; ∀x (Glim(x) → Not(x)) ; ∀x (Spog(x) → Klep(x)),Not(a),True
+799,∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Not(x)) ; ∀x (Triv(x) → Not(x)) ; ∀x (Yex(x) → Jext(x)),Not(a),True
+999,∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Not(x)) ; ∀x (Skrim(x) → Not(x)) ; ∀x (Zimb(x) → Wrox(x)),Not(a),True
+0,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+200,∀x (Razz(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+400,∀x (Vank(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+600,∀x (Blorn(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+800,∀x (Splee(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+1,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+201,∀x (Razz(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+401,∀x (Vank(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+601,∀x (Blorn(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+801,∀x (Splee(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+2,∀x (Blaf(x) → Not(x)) ; ∀x (Ziklo(x) → Trune(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+202,∀x (Razz(x) → Not(x)) ; ∀x (Glent(x) → Pex(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+402,∀x (Vank(x) → Not(x)) ; ∀x (Praf(x) → Scud(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+602,∀x (Blorn(x) → Not(x)) ; ∀x (Fizo(x) → Plim(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+802,∀x (Splee(x) → Not(x)) ; ∀x (Nuv(x) → Blen(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+3,∀x (Blaf(x) → Not(x)) ; ∀x (Ziklo(x) → Trune(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+203,∀x (Razz(x) → Not(x)) ; ∀x (Glent(x) → Pex(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+403,∀x (Vank(x) → Not(x)) ; ∀x (Praf(x) → Scud(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+603,∀x (Blorn(x) → Not(x)) ; ∀x (Fizo(x) → Plim(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+803,∀x (Splee(x) → Not(x)) ; ∀x (Nuv(x) → Blen(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+4,∀x (Trune(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+204,∀x (Pex(x) → Glent(x)) ; ∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+404,∀x (Scud(x) → Praf(x)) ; ∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+604,∀x (Plim(x) → Fizo(x)) ; ∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+804,∀x (Blen(x) → Nuv(x)) ; ∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+5,∀x (Trune(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Blaf(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+205,∀x (Pex(x) → Glent(x)) ; ∀x (Glent(x) → Razz(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+405,∀x (Scud(x) → Praf(x)) ; ∀x (Praf(x) → Vank(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+605,∀x (Plim(x) → Fizo(x)) ; ∀x (Fizo(x) → Blorn(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+805,∀x (Blen(x) → Nuv(x)) ; ∀x (Nuv(x) → Splee(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+6,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+206,∀x (Razz(x) → Glent(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+406,∀x (Vank(x) → Praf(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+606,∀x (Blorn(x) → Fizo(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+806,∀x (Splee(x) → Nuv(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+7,∀x (Vork(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Not(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+207,∀x (Zurn(x) → Glent(x)) ; ∀x (Glent(x) → Not(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+407,∀x (Wrenk(x) → Praf(x)) ; ∀x (Praf(x) → Not(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+607,∀x (Quaz(x) → Fizo(x)) ; ∀x (Fizo(x) → Not(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+807,∀x (Druk(x) → Nuv(x)) ; ∀x (Nuv(x) → Not(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+8,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+208,∀x (Razz(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+408,∀x (Vank(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+608,∀x (Blorn(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+808,∀x (Splee(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+9,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+209,∀x (Razz(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+409,∀x (Vank(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+609,∀x (Blorn(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+809,∀x (Splee(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+10,∀x (Trune(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Blaf(x)) ; ∀x (Blaf(x) → Vork(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+210,∀x (Pex(x) → Glent(x)) ; ∀x (Glent(x) → Razz(x)) ; ∀x (Razz(x) → Zurn(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+410,∀x (Scud(x) → Praf(x)) ; ∀x (Praf(x) → Vank(x)) ; ∀x (Vank(x) → Wrenk(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+610,∀x (Plim(x) → Fizo(x)) ; ∀x (Fizo(x) → Blorn(x)) ; ∀x (Blorn(x) → Quaz(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+810,∀x (Blen(x) → Nuv(x)) ; ∀x (Nuv(x) → Splee(x)) ; ∀x (Splee(x) → Druk(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+11,∀x (Trune(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Blaf(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+211,∀x (Pex(x) → Glent(x)) ; ∀x (Glent(x) → Razz(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+411,∀x (Scud(x) → Praf(x)) ; ∀x (Praf(x) → Vank(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+611,∀x (Plim(x) → Fizo(x)) ; ∀x (Fizo(x) → Blorn(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+811,∀x (Blen(x) → Nuv(x)) ; ∀x (Nuv(x) → Splee(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+12,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+212,∀x (Razz(x) → Glent(x)) ; ∀x (Glent(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+412,∀x (Vank(x) → Praf(x)) ; ∀x (Praf(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+612,∀x (Blorn(x) → Fizo(x)) ; ∀x (Fizo(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+812,∀x (Splee(x) → Nuv(x)) ; ∀x (Nuv(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+13,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+213,∀x (Razz(x) → Glent(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+413,∀x (Vank(x) → Praf(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+613,∀x (Blorn(x) → Fizo(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+813,∀x (Splee(x) → Nuv(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+14,∀x (Sline(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+214,∀x (Melf(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+414,∀x (Yobb(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+614,∀x (Skul(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+814,∀x (Plog(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+15,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Ziklo(x) → Sline(x)) ; ∀x (Sline(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+215,∀x (Razz(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Glent(x) → Melf(x)) ; ∀x (Melf(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+415,∀x (Vank(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Praf(x) → Yobb(x)) ; ∀x (Yobb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+615,∀x (Blorn(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Fizo(x) → Skul(x)) ; ∀x (Skul(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+815,∀x (Splee(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Nuv(x) → Plog(x)) ; ∀x (Plog(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+16,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+216,∀x (Razz(x) → Glent(x)) ; ∀x (Glent(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+416,∀x (Vank(x) → Praf(x)) ; ∀x (Praf(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+616,∀x (Blorn(x) → Fizo(x)) ; ∀x (Fizo(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+816,∀x (Splee(x) → Nuv(x)) ; ∀x (Nuv(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+17,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+217,∀x (Razz(x) → Glent(x)) ; ∀x (Glent(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+417,∀x (Vank(x) → Praf(x)) ; ∀x (Praf(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+617,∀x (Blorn(x) → Fizo(x)) ; ∀x (Fizo(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+817,∀x (Splee(x) → Nuv(x)) ; ∀x (Nuv(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+18,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Blaf(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+218,∀x (Razz(x) → Glent(x)) ; ∀x (Glent(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Razz(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+418,∀x (Vank(x) → Praf(x)) ; ∀x (Praf(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Vank(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+618,∀x (Blorn(x) → Fizo(x)) ; ∀x (Fizo(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Blorn(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+818,∀x (Splee(x) → Nuv(x)) ; ∀x (Nuv(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Splee(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+19,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Trune(x)) ; ∀x (Trune(x) → Not(x)) ; ∀x (Ziklo(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+219,∀x (Razz(x) → Glent(x)) ; ∀x (Glent(x) → Pex(x)) ; ∀x (Pex(x) → Not(x)) ; ∀x (Glent(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+419,∀x (Vank(x) → Praf(x)) ; ∀x (Praf(x) → Scud(x)) ; ∀x (Scud(x) → Not(x)) ; ∀x (Praf(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+619,∀x (Blorn(x) → Fizo(x)) ; ∀x (Fizo(x) → Plim(x)) ; ∀x (Plim(x) → Not(x)) ; ∀x (Fizo(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+819,∀x (Splee(x) → Nuv(x)) ; ∀x (Nuv(x) → Blen(x)) ; ∀x (Blen(x) → Not(x)) ; ∀x (Nuv(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+20,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+220,∀x (Razz(x) → Glent(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+420,∀x (Vank(x) → Praf(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+620,∀x (Blorn(x) → Fizo(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+820,∀x (Splee(x) → Nuv(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+21,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+221,∀x (Razz(x) → Glent(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+421,∀x (Vank(x) → Praf(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+621,∀x (Blorn(x) → Fizo(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+821,∀x (Splee(x) → Nuv(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+22,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+222,∀x (Razz(x) → Glent(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+422,∀x (Vank(x) → Praf(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+622,∀x (Blorn(x) → Fizo(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+822,∀x (Splee(x) → Nuv(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+23,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+223,∀x (Razz(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+423,∀x (Vank(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+623,∀x (Blorn(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+823,∀x (Splee(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+24,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+224,∀x (Razz(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+424,∀x (Vank(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+624,∀x (Blorn(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+824,∀x (Splee(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+25,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+225,∀x (Razz(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+425,∀x (Vank(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+625,∀x (Blorn(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+825,∀x (Splee(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+26,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+226,∀x (Razz(x) → Glent(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+426,∀x (Vank(x) → Praf(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+626,∀x (Blorn(x) → Fizo(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+826,∀x (Splee(x) → Nuv(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+27,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+227,∀x (Razz(x) → Glent(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+427,∀x (Vank(x) → Praf(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+627,∀x (Blorn(x) → Fizo(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+827,∀x (Splee(x) → Nuv(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+28,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+228,∀x (Razz(x) → Glent(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+428,∀x (Vank(x) → Praf(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+628,∀x (Blorn(x) → Fizo(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+828,∀x (Splee(x) → Nuv(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+29,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+229,∀x (Razz(x) → Glent(x)) ; ∀x (Glent(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+429,∀x (Vank(x) → Praf(x)) ; ∀x (Praf(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+629,∀x (Blorn(x) → Fizo(x)) ; ∀x (Fizo(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+829,∀x (Splee(x) → Nuv(x)) ; ∀x (Nuv(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+30,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+230,∀x (Razz(x) → Glent(x)) ; ∀x (Glent(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+430,∀x (Vank(x) → Praf(x)) ; ∀x (Praf(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+630,∀x (Blorn(x) → Fizo(x)) ; ∀x (Fizo(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+830,∀x (Splee(x) → Nuv(x)) ; ∀x (Nuv(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+31,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Qado(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+231,∀x (Razz(x) → Glent(x)) ; ∀x (Glent(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Flen(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+431,∀x (Vank(x) → Praf(x)) ; ∀x (Praf(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Spog(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+631,∀x (Blorn(x) → Fizo(x)) ; ∀x (Fizo(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Yex(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+831,∀x (Splee(x) → Nuv(x)) ; ∀x (Nuv(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Zimb(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+32,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+232,∀x (Razz(x) → Glent(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+432,∀x (Vank(x) → Praf(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+632,∀x (Blorn(x) → Fizo(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+832,∀x (Splee(x) → Nuv(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+33,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+233,∀x (Razz(x) → Glent(x)) ; ∀x (Glent(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+433,∀x (Vank(x) → Praf(x)) ; ∀x (Praf(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+633,∀x (Blorn(x) → Fizo(x)) ; ∀x (Fizo(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+833,∀x (Splee(x) → Nuv(x)) ; ∀x (Nuv(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+34,∀x (Trune(x) → Not(x)) ; ∀x (Blaf(x) → Ziklo(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+234,∀x (Pex(x) → Not(x)) ; ∀x (Razz(x) → Glent(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+434,∀x (Scud(x) → Not(x)) ; ∀x (Vank(x) → Praf(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+634,∀x (Plim(x) → Not(x)) ; ∀x (Blorn(x) → Fizo(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+834,∀x (Blen(x) → Not(x)) ; ∀x (Splee(x) → Nuv(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+35,∀x (Trune(x) → Blaf(x)) ; ∀x (Blaf(x) → Ziklo(x)) ; ∀x (Ziklo(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+235,∀x (Pex(x) → Razz(x)) ; ∀x (Razz(x) → Glent(x)) ; ∀x (Glent(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+435,∀x (Scud(x) → Vank(x)) ; ∀x (Vank(x) → Praf(x)) ; ∀x (Praf(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+635,∀x (Plim(x) → Blorn(x)) ; ∀x (Blorn(x) → Fizo(x)) ; ∀x (Fizo(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+835,∀x (Blen(x) → Splee(x)) ; ∀x (Splee(x) → Nuv(x)) ; ∀x (Nuv(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+36,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),True
+236,∀x (Razz(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),True
+436,∀x (Vank(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),True
+636,∀x (Blorn(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),True
+836,∀x (Splee(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),True
+37,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Trune(x) → Vork(x)) ; ∀x (Sline(x) → Frim(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+237,∀x (Razz(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Pex(x) → Zurn(x)) ; ∀x (Melf(x) → Crip(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+437,∀x (Vank(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Scud(x) → Wrenk(x)) ; ∀x (Yobb(x) → Glim(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+637,∀x (Blorn(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Plim(x) → Quaz(x)) ; ∀x (Skul(x) → Triv(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+837,∀x (Splee(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Blen(x) → Druk(x)) ; ∀x (Plog(x) → Skrim(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+38,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+238,∀x (Razz(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+438,∀x (Vank(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+638,∀x (Blorn(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+838,∀x (Splee(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
+39,∀x (Blaf(x) → Ziklo(x)) ; ∀x (Blaf(x) → Trune(x)) ; ∀x (Ziklo(x) → Vork(x)) ; ∀x (Vork(x) → Sline(x)) ; ∀x (Frim(x) → Qado(x)) ; ∀x (Qado(x) → Jurf(x)) ; ∀x (Jurf(x) → Lumbo(x)) ; ¬Ziklo(a),Lumbo(a),False
+239,∀x (Razz(x) → Glent(x)) ; ∀x (Razz(x) → Pex(x)) ; ∀x (Glent(x) → Zurn(x)) ; ∀x (Zurn(x) → Melf(x)) ; ∀x (Crip(x) → Flen(x)) ; ∀x (Flen(x) → Tork(x)) ; ∀x (Tork(x) → Zlim(x)) ; ¬Glent(a),Zlim(a),False
+439,∀x (Vank(x) → Praf(x)) ; ∀x (Vank(x) → Scud(x)) ; ∀x (Praf(x) → Wrenk(x)) ; ∀x (Wrenk(x) → Yobb(x)) ; ∀x (Glim(x) → Spog(x)) ; ∀x (Spog(x) → Torb(x)) ; ∀x (Torb(x) → Klep(x)) ; ¬Praf(a),Klep(a),False
+639,∀x (Blorn(x) → Fizo(x)) ; ∀x (Blorn(x) → Plim(x)) ; ∀x (Fizo(x) → Quaz(x)) ; ∀x (Quaz(x) → Skul(x)) ; ∀x (Triv(x) → Yex(x)) ; ∀x (Yex(x) → Rild(x)) ; ∀x (Rild(x) → Jext(x)) ; ¬Fizo(a),Jext(a),False
+839,∀x (Splee(x) → Nuv(x)) ; ∀x (Splee(x) → Blen(x)) ; ∀x (Nuv(x) → Druk(x)) ; ∀x (Druk(x) → Plog(x)) ; ∀x (Skrim(x) → Zimb(x)) ; ∀x (Zimb(x) → Yurd(x)) ; ∀x (Yurd(x) → Wrox(x)) ; ¬Nuv(a),Wrox(a),False
